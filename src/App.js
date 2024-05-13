@@ -5,7 +5,7 @@ import Grid from './components/grid'
 function App() {
   const [images, setImages] = useState([])
   useEffect(() => {
-    const prefix = process.env.NODE_ENV === 'development' ? '/virtual-scroll' : ''
+    const prefix = process.env.NODE_ENV === 'development' ? '' : '/virtual-scroll'
     fetch(`${prefix}/static/json/images.json`).then(res => res.json()).then(res => {
       setImages(res)
     })
