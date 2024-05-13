@@ -25,6 +25,6 @@ To run the tests for the `GridItem` component, use the following command: `npm r
 
 ## DEMO URL:- [Demo](https://rsach.github.io/virtual-scroll/)
 
-## Demo:-   [Image](/Screen%20Recording.gif)
+## Demo:-   ![Image](/Screen%20Recording.gif)
 
 
